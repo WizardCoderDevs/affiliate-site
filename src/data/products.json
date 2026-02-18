@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Shilajit Extreme",
+        "category": "Nutra & Health",
+        "description": "Pure Himalayan Shilajit resin. Potent natural source of fulvic acid and trace minerals for vitality and strength.",
+        "label": "Hot Deal",
+        "href": "/products/shilajit-extreme",
+        "imageUrl": "https://nutriprofits.com/src/template/backend/uploads/image_1763632996.png"
+    },
+    {
+        "title": "EnduNAD",
+        "category": "Nutra & Health",
+        "description": "Support your cellular health and energy levels with EnduNAD. A revolutionary formula designed for longevity and performance.",
+        "label": "Top Choice",
+        "href": "/products/endunad",
+        "imageUrl": "https://nutriprofits.com/src/template/backend/uploads/image_1736866930.png"
+    },
+    {
+        "title": "Flexomore",
+        "category": "Nutra & Health",
+        "description": "Premium health supplement for joint support and flexibility. Formulated with high-quality ingredients for active life.",
+        "label": "New Offer",
+        "href": "/products/flexomore",
+        "imageUrl": "https://nutriprofits.com/src/template/backend/uploads/image_1713278116.png"
+    },
+    {
+        "title": "Folicerin",
+        "category": "Nutra & Health",
+        "description": "Modern anti-hair loss shampoo for men. Formula rich in natural extracts that helps stimulate growth and strengthen follicles.",
+        "label": "Hair Care",
+        "href": "/products/folicerin",
+        "imageUrl": "https://nutriprofits.com/src/template/backend/uploads/image_1682667216.png"
+    }
+]

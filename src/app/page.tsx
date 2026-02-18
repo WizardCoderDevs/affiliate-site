@@ -2,37 +2,18 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
+import products from "@/data/products.json";
 
-const products = [
-  {
-    title: "EcoPro Nutrient Boost",
-    category: "Nutra & Health",
-    price: "49.99",
-    description: "Advanced natural supplement designed to boost your daily energy levels and support metabolic health with organic ingredients.",
-    label: "Best Seller"
-  },
-  {
-    title: "Digital Freedom System",
-    category: "Digital Products",
-    price: "197.00",
-    description: "The complete blueprint for scaling your online business from scratch. Inclusive video training and exclusive community access.",
-    label: "New"
-  },
-  {
-    title: "Pure Glow Skin Vitality",
-    category: "Nutra & Health",
-    price: "34.50",
-    description: "Premium collagen formula for radiant skin, strong hair, and healthy joints. Clinical grade results in just 30 days.",
-    label: "Limited Deal"
-  },
-  {
-    title: "AI Automation Secrets",
-    category: "Digital Products",
-    price: "89.00",
-    description: "Learn how to automate 80% of your workflow using modern AI tools. Practical guides for the modern entrepreneur.",
-    label: "Essential"
-  }
-];
+interface Product {
+  title: string;
+  category: string;
+  description: string;
+  label?: string;
+  href?: string;
+  imageUrl?: string;
+}
+
+const typedProducts = products as Product[];
 
 export default function Home() {
   return (
@@ -51,7 +32,7 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {products.map((product, idx) => (
+            {typedProducts.map((product, idx) => (
               <ProductCard key={idx} {...product} />
             ))}
           </div>

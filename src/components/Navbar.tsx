@@ -14,9 +14,6 @@ export default function Navbar() {
             <div className="ml-10 flex items-baseline space-x-8">
               <Link href="#offers" className="hover:text-brand-secondary transition-colors duration-200">Featured Deals</Link>
               <Link href="#about" className="hover:text-brand-secondary transition-colors duration-200">About Us</Link>
-              <Link href="#contact" className="px-4 py-2 rounded-full border border-brand-secondary text-brand-secondary hover:bg-brand-secondary hover:text-white transition-all duration-300">
-                Contact
-              </Link>
             </div>
           </div>
         </div>

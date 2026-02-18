@@ -1,0 +1,18 @@
+import CookiePopup from "@/components/CookiePopup";
+
+export default function EnduNADPage() {
+  const offerUrl = "https://nplink.net/o2u3titp";
+
+  return (
+    <main className="h-screen w-screen overflow-hidden bg-black relative">
+      <CookiePopup affiliateUrl={offerUrl} />
+      <iframe 
+        src={offerUrl}
+        className="w-full h-full border-0"
+        allowFullScreen
+        loading="lazy"
+        title="EnduNAD Offer"
+      />
+    </main>
+  );
+}
