@@ -1,0 +1,10 @@
+# Regras de Interação da IA (.antigravity)
+
+As seguintes regras são estabelecidas para agentes de IA (como o Antigravity) que trabalham neste projeto:
+
+1. **Idioma de Resposta**: Todas as respostas, comunicações e informações fornecidas pela IA devem ser obrigatoriamente em **Português (Brasil)**.
+2. **Framework e Runtime**: Este projeto utiliza **Next.js** (versão mais recente) com o runtime **Bun**.
+3. **Gerenciamento de Pacotes**: Utilize sempre o **Bun** (`bun install`, `bun add`, `bun run`) em vez de npm, yarn ou pnpm.
+4. **Arquitetura**: O projeto utiliza o **App Router** do Next.js.
+5. **Clareza e Contexto**: Ao explicar conceitos técnicos ou alterações no código, utilize terminologia clara em português, mantendo o contexto técnico necessário.
+6. **Consistência**: Esta regra de idioma se aplica a todas as interações, incluindo planejamento, execução e verificação de tarefas.
